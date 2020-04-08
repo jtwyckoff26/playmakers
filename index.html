@@ -14,9 +14,9 @@
                 const urlParams = new URLSearchParams(window.location.search);
                 console.log("urlParams: ", window.location.search)
                 console.log("urlParams.get('video'): ", urlParams.get('video'));
-                var desktopFallback = `https://www.raptv.com`,
-                mobileFallback = `https://www.raptv.com`,
-                app = `https://www.raptv.com`;
+                var desktopFallback = `https://homeofplaymakers.com`,
+                mobileFallback = `https://homeofplaymakers.com`,
+                app = `https://homeofplaymakers.com`;
                 if( /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
                     window.location = app;
                     window.setTimeout(function() {

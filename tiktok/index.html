@@ -18,13 +18,13 @@
                 console.log("urlParams.get('playlist'): ", urlParams.get('video'));
                 if (searchString.includes('video')) {
                     myParam = urlParams.get('video');
-                    baseString = "https://www.tiktok.com/@rap/video/";
+                    baseString = "https://www.tiktok.com/@playmaker/video/";
                     baseStringApp = "snssdk1233://vm.tiktok.com/video/"
                 }
                 else {
                     myParam = "";
-                    baseString = "https://www.tiktok.com/@rap";
-                    baseStringApp = "snssdk1233://user/profile/6743547525321950213"
+                    baseString = "https://www.tiktok.com/@playmaker";
+                    baseStringApp = "snssdk1233://user/profile/6652131259286700038"
                 }
                 var desktopFallback = `${baseString}${myParam}`,
                 mobileFallback = `${baseString}${myParam}`,
