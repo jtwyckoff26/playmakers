@@ -14,9 +14,9 @@
                 const urlParams = new URLSearchParams(window.location.search);
                 console.log("urlParams: ", window.location.search)
                 console.log("urlParams.get('video'): ", urlParams.get('video'));
-                var desktopFallback = `https://www.instagram.com/playmaker`,
-                mobileFallback = `https://www.instagram.com/playmaker`,
-                app = `instagram://user?username=playmaker`;
+                var desktopFallback = `https://www.facebook.com/PlaymakerVideos/`,
+                mobileFallback = `https://www.facebook.com/PlaymakerVideos/`,
+                app = `fb://page/?id=1053138201419178`;
                 if( /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
                     window.location = app;
                     window.setTimeout(function() {
